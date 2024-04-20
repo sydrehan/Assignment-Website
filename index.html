@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label id="label" for="position-filter">Filter by Position:</label>
+    <select id="position-filter">
+        <option value="All">All Positions</option>
+        <option value="Assistant Professor">Assistant Professor</option>
+        <option value="MS(R) student">MS(R) student</option>
+        <option value="PhD student">PhD student</option>
+        <option value="Research Assistant">Research Assistant</option>
+        <
+
+    </select>
+    <br>
+
+    <table id="member-table" border>
+        <!-- Table rows as provided in my HTML -->
+
+
+            <tr>
+                <td>timestamp</td>
+                <td>name</td>
+                <td>position</td>
+                <td>email</td>
+                <td>bio1</td>
+                <td>bio2</td>
+                <td>bio3</td>
+                <td>bio4</td>
+                <td>image</td>
+                <td>affiliation</td>
+                <td>display</td>
+                <td>undefined</td>
+                <td>acknowledgement</td>
+                <td>alumni</td>
+                <td>alumni_current</td>
+                <td>year</td>
+            </tr>
+            <tr>
+                <td>2/2/2024 16:29:50</td>
+                <td>Akshay Pawar</td>
+                <td>Assistant Professor</td>
+                <td>abc</td>
+                <td>sryt</td>
+                <td>th </td>
+                <td>ghmh</td>
+                <td>stg</td>
+                <td>https://drive.google.com/thumbnail?id=1jEyhg_SiG3T1rqKmoTuDOn9ffB6--Wt6&sz=w300</td>
+                <td>Center for Brain Sciences and Applications (IIT-Jodhpur)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:03:05</td>
+                <td>M. Sanket Rathod</td>
+                <td>MS(R) student</td>
+                <td>xyz</td>
+                <td>"Mesoscale whole-brain network modeling</td>
+                <td> epilepsy</td>
+                <td> memory in mouse brains"</td>
+                <td>rsg er</td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1D-3MdkThidQnSalXWOopjUNP787IOdYJ&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:20:27</td>
+                <td>Prafulla Date</td>
+                <td>PhD student</td>
+                <td>asd</td>
+                <td>"Neural effects of smartphone use</td>
+                <td> functional connectivity"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1jLPSgfbNrzG9s-Sc75LkOE32aIAyxMvt&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:33:19</td>
+                <td>Richa Ahuja</td>
+                <td>Research Assistant</td>
+                <td>dgsg</td>
+                <td>"Neural effects of smartphone use</td>
+                <td> EEG biomarkers of anxiety"</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1U7ccOONZLLwaCkACat0GAj2eyU-VOYJ0&sz=w300</td>
+                <td>Center for Brain Science and Applications (IIT-Jodhpur)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:42:14</td>
+                <td>Ujjwal</td>
+                <td>Undergraduate student</td>
+                <td>gfgh</td>
+                <td>Sleep and dreams</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1bgGrzLcKAm3JRT_qrv-TdAOuSuxDNWoV&sz=w300</td>
+                <td>Electrical Engineering (IIT Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>System Engineer - Enphase Energy</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:45:13</td>
+                <td>Umesh</td>
+                <td>Undergraduate student</td>
+                <td>ugj</td>
+                <td>Classification of neurons based on Neuropixels ephys features</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=18p2NuiVRhprRLToq2nizT6PO-NuL42tX&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>Software job</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:48:02</td>
+                <td>Umang</td>
+                <td>Undergraduate student</td>
+                <td>ersf</td>
+                <td>Classification of neurons based on Neuropixels ephys features</td>
+                <td>rger</td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1vuCUPEI4M3oy0Z197jGM8o4RDAIvi9dZ&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>Pursuing MS (Computer Engineering) at Carnegie Mellon University</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 11:51:42</td>
+                <td>Ulysyss</td>
+                <td>Undergraduate student</td>
+                <td>uigujg</td>
+                <td>Applying CURBD model to Neuropixels data</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=12zQE9FvuBWYYHINy6KDFgyCU17Mb6BAt&sz=w300</td>
+                <td>Electircal Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>Pursuing MS (Computer Science) at University of Wisconsin-Madison</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 13:12:53</td>
+                <td>Uday</td>
+                <td>Undergraduate student</td>
+                <td>vxvd</td>
+                <td>Detecting Brain Connectivity Changes with Virtual Transcranial Magnetic Stimulation</td>
+                <td>Simulated the effect of TMS on a virtual brain model using The Virtual Brain (TVB)</td>
+                <td>Attempted to discern differences in stimulation response between normal patients and patients with Alzheimer&#8217;s Disease.</td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1MI8R_8TO-Hoo5y3k305AsZwWDuZ50CEr&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>Pursuing MS/PhD in the US</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 13:55:20</td>
+                <td>Isha</td>
+                <td>Intern</td>
+                <td>uryt</td>
+                <td>Using CURBD model on EEG dataset</td>
+                <td>We used current-based decomposition (CURBD) model to identify the activity in brain regions responding to a stimulus</td>
+                <td>The differences in the activity between healthy and Alz heimer's patients helped us gauge the affected regions</td>
+                <td>gsrgd</td>
+                <td>https://drive.google.com/thumbnail?id=18XWPNihceVtI8JBrs42gwLeunGu5-w2f&sz=w300</td>
+                <td>"BITS Pilani</td>
+                <td> Pilani Campus"</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>1</td>
+                <td>Undergraduate Research Intern at Harvard University</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/9/2024 15:25:56</td>
+                <td>Uma</td>
+                <td>Undergraduate student</td>
+                <td>rwr</td>
+                <td>PeneWise - Using Machine Learning and Embedded Systems for Cost-Effective Handwriting Digitization</td>
+                <td>"Interested in robotics</td>
+                <td> especially in developing hardware for novel robotic applications."</td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1exiOviyOY1yccVTsSrNvQJWs5kN2RVuS&sz=w300</td>
+                <td>Physics (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>uil</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2/10/2024 7:34:47</td>
+                <td>Meera S.</td>
+                <td>MSc student</td>
+                <td>nvnv</td>
+                <td>Navigational network in the brain</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1hbBGLJuTTPwJ5ORAFnm8nMlyMe-CNMRC&sz=w300</td>
+                <td>Cognitive Science (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>2/10/2024 23:00:41</td>
+                <td>Mithali S. Roy</td>
+                <td>MS(R) student</td>
+                <td>o8iyy</td>
+                <td>Modeling of dynamics in the mouse brain in different states of consciousness</td>
+                <td>sgrgr</td>
+                <td>thrrt</td>
+                <td>"Personal interests: Chess</td>
+                <td> Swimming</td>
+                <td> Traveling</td>
+                <td> Yoga & Meditation"</td>
+                <td>https://drive.google.com/thumbnail?id=19PKRK6SLGTqi4rRwLSzD2xN0-jmF_B0y&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>dfgg</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2/12/2024 13:09:31</td>
+                <td>Mangesh Scott</td>
+                <td>MSc Student</td>
+                <td>sgf</td>
+                <td>Modelling of the Dynamics of Foveation and Attention in Human Visual System</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=1MI8R_8TO-Hoo5y3k305AsZwWDuZ50CEr&sz=w300</td>
+                <td>HSS(Humanities and Social Sciences) Department</td>
+                <td>1</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/15/2024 16:18:19</td>
+                <td>Izan</td>
+                <td>Intern</td>
+                <td>utyjyt</td>
+                <td>"I work on multidisciplinary topics that brings together Dynamics</td>
+                <td> Statistical Mechanics</td>
+                <td> Biological Systems & Computing."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>https://drive.google.com/thumbnail?id=18XWPNihceVtI8JBrs42gwLeunGu5-w2f&sz=w300</td>
+                <td>Electrical Engineering (IIT-Delhi)</td>
+                <td>0</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td>Applying for PhD</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>2/29/2024 1:25:25</td>
+                <td>Uri</td>
+                <td>Undergraduate student</td>
+                <td>bgfbf</td>
+                <td>Trekker Safety Device </td>
+                <td>"Integration of device with Lora and GPS</td>
+                <td> incorporated in trekking pole</td>
+                <td> trekker when in trouble can send distsess signal"</td>
+                <td>Reduce rescue search time by the authorities</td>
+                <td>sfsre</td>
+                <td>https://drive.google.com/thumbnail?id=1exiOviyOY1yccVTsSrNvQJWs5kN2RVuS&sz=w300</td>
+                <td>"Industrial design (Savannah College of Art and Design</td>
+                <td> GA)"</td>
+                <td>0</td>
+                <td></td>
+                <td>I understand and agree</td>
+                <td>0</td>
+                <td></td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        
+    </table>
+    <br><br>
+    <footer>
+        @syd.rehan.raza
+    </footer>
+
+    <script>
+        document.getElementById('position-filter').addEventListener('change', function() {
+            var selectedPosition = this.value;
+            var tableRows = document.querySelectorAll('#member-table tr');
+
+            tableRows.forEach(function(row) {
+                var positionCell = row.querySelector('td:nth-child(3)'); // Assuming position is the 3rd column
+                if (positionCell) {
+                    var position = positionCell.textContent.trim();
+                    if (selectedPosition === 'All' || position === selectedPosition) {
+                        row.style.display = ''; // Show the row
+                    } else {
+                        row.style.display = 'none'; // Hide the row
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

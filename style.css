@@ -1,0 +1,13 @@
+/* Add your CSS styles here */
+.filter-container {
+    margin-bottom: 20px;
+}
+#label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    background-color: black;
+    font-size: 29px;
+}
+body{
+    background-color: darkgray;
+}
